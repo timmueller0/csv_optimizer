@@ -13,7 +13,7 @@ Install the package locally:
 ```
 pip install -e .
 ```
-via PyPl:
+via PyPI:
 
 ```
 pip install csv_optimizer
