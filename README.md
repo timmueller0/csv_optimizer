@@ -50,12 +50,12 @@ Note on `use_float_for_nan_ints` and `use_float_for_nan_bools`: If a column cont
 1. Loads a sample (default: 10%) of the CSV to determine optimal data types.
 2. Detects column types and assigns the most efficient dtype:
 - Converts categorical-like columns to category
-- Optimizes integer columns (int8, int16, int32, int64)
-- Uses float32 where possible for floating-point numbers
-- Supports datetime parsing (Sorry, currently it still uses trial and error, resulting in a lot of flags showing up while running.)
-- Detects Boolean columns (bool or Pandas nullable boolean)
+- Optimizes integer columns (`int8`, `int16`, `int32`, `int64`)
+- Uses `float32` where possible for floating-point numbers
+- Supports `datetime` parsing (Sorry, currently it still uses trial and error, resulting in a lot of flags showing up while running.)
+- Detects Boolean columns (`bool` or Pandas nullable `boolean`)
 - Allows user-defined handling for NaN-containing columns
-- Loads the full CSV using optimized dtypes with (often) much less memory usage
+3. Applies optimized `dtypes` when loading the full dataset.
 
 ## Development & Contributions
 
