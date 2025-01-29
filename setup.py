@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="csv_optimizer",
-    version="0.1",
+    version="0.11",
     packages=find_packages(),
     install_requires=[
         "pandas>=1.0.0",
@@ -13,7 +13,7 @@ setup(
     description="A Python package for efficiently loading CSV files with optimized data types.",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/yourgithub/csv_optimizer",
+    url="https://github.com/timmueller0/csv_optimizer",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
