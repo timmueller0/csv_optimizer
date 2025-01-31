@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="csv_optimizer",
-    version="0.11",
+    version="0.20",
     packages=find_packages(),
     install_requires=[
         "pandas>=1.0.0",
